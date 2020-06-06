@@ -6,6 +6,7 @@ class MainWindow extends BrowserWindow {
 		super({
 				webPreferences: {
 					nodeIntegration: true,
+					backgroundThrottling: false,
 				},
 				height: 500,
 				width: 300,
